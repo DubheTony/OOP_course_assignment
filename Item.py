@@ -5,3 +5,11 @@ class Item:
         self.ManufacturingDate = Manufacturing_Date
         self.BestBeforeDate = Best_Before_Date
         self.Shelf_Life = Shelf_Life
+
+
+# 要把对象属性存储在dict里
+class Fruit(Item):
+    pass
+
+class Drink(Item):
+    pass
