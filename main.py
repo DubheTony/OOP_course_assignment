@@ -64,8 +64,7 @@ while True:
                     break
     else:
          print('无效选择')
-else:
-    print('无效选择')
+
 
 save_objects_to_csv(objects_type_dict)
 
